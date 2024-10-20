@@ -1,5 +1,7 @@
 CREATE DATABASE sistemaCursos;
+
 USE sistemaCursos;
+
 CREATE TABLE cursos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome_curso VARCHAR(100) NOT NULL,
