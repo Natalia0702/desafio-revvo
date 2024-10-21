@@ -9,7 +9,7 @@ class CursosModel {
         $this->pdo = $pdo;
     }
 
-    public function listarCursos($id = null){
+    public function listarCursos($id){
         if($id === null){
             $stmt = $this->pdo->query('SELECT * FROM cursos');
             return $stmt->fetchAll(PDO::FETCH_ASSOC);

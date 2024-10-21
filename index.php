@@ -9,4 +9,5 @@ require_once 'Connection.php';
 
 handleCors();
 
-require_once 'app/Routes/route.php';  
+
+require_once 'app/Routes/route.php';

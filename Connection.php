@@ -13,7 +13,7 @@ $dbPassword = $_ENV['DB_PASSWORD'];
 
 try {
     $pdo = new PDO("mysql:host=$dbHost;port=$dbPort;dbname=$dbDatabase;user=$dbUsername;password=$dbPassword");
-    echo "conectado com sucesso!";
+    echo "conectado ao banco com sucesso!";
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $pdo;
 } catch (PDOException $e) {

@@ -1,6 +1,6 @@
-<?php 
+<?php
 require 'vendor/autoload.php';
-if(!function_exists('handleCors')) {
+if (!function_exists('handleCors')) {
     function handleCors() {
         // $allowedOrigins = explode(',', getenv('ALLOWED_ORIGINS'));        
         
