@@ -9,8 +9,56 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Desafio-Revvo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+        </nav>
+    <!--navbar-->
+
+    <!--corousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 300px; object-fit: cover;" >
+        <img class="d-block w-100" src="imagens/banner.png" alt="First slide">
+        </div>
+        <div class="carousel-item" style="height: 300px; object-fit: cover;">
+        <img class="d-block w-100" src="imagens/banner.png" alt="Second slide">
+        </div>
+        <div class="carousel-item" style="height: 300px; object-fit: cover;">
+        <img class="d-block w-100" src="imagens/banner.png" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <!--corousel-->
     <div class="container mt-5">
-        <h1 class="text-center">Lista de Cursos</h1>
+        <h2 class="text-end">MEUS CURSOS</h2>
+        <hr>
         <div id="cursos-container" class="row">
             <!-- cursos-->
         </div>
@@ -64,6 +112,14 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+            </div>
+        </footer>
     </div>
 
     <!-- jQuery CDN -->
