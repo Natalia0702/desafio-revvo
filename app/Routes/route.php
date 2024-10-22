@@ -22,12 +22,13 @@ if($path === '/listarCursos' || preg_match('/^\/listarCursos\/(\d+)$/', $path, $
     exit();
 }
 
-if ($path === '/criarCurso' && $method === 'POST') {
-    $dados = json_decode(file_get_contents('php://input'), true); // Recebe os dados enviados via POST.
-    $resultado = $cursosController->criarCurso($dados);
-    echo json_encode(['message' => 'Curso criado com sucesso', 'curso' => $resultado]);
-    exit();
-}
+//criar curso
+// if ($method === 'POST' && $path === '/editarCurso') {
+//     $dados = json_decode(file_get_contents('php://input'), true);
+//     $resultado = $cursosController->criarCurso($dados);
+//     echo json_encode(['message' => 'Curso criado com sucesso', 'curso' => $resultado]);
+//     exit();
+// }
 
 if ($method === 'POST' && preg_match('/^\/editarCurso\/(\d+)$/', $path, $matches)) {
     $id = $matches[1];

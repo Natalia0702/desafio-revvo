@@ -26,7 +26,7 @@ class CursosModel {
         $stmt->bindParam(':nome_curso', $dados['nome_curso']);
         $stmt->bindParam(':descricao', $dados['descricao']);
         $stmt->bindParam(':preco', $dados['preco']);
-        $stmt->bindParam(':imagem', $dados['imagem']);
+        // $stmt->bindParam(':imagem', $dados['imagem']);
         return $stmt->execute();
     }
 

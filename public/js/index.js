@@ -136,4 +136,19 @@ $(document).ready(function(){
             });
         }
     });
+
+    // $(document).on('click', '.adicao-curso', function(){
+    //     $('#titulo').val('');
+    //     $('#descricao').val('');
+    //     $('#preco').val('');
+    //     $('#curso-id-hidden').val(''); 
+
+    //     $('#verCursoModalLabel').text('Adicionar Novo Curso'); 
+    //     $('#visualizacaoCurso').hide(); 
+    //     $('#editarCursoForm').show(); 
+
+    //     $('#editar-curso').hide(); 
+    //     $('#deleteCurso').hide(); 
+    //     $('#salvarCurso').show(); 
+    // })
 });
