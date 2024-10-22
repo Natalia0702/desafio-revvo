@@ -1,6 +1,14 @@
 $(document).ready(function(){
     // Carregar cursos
     carregarCursos();
+    mostrarModalInicial()
+
+    function mostrarModalInicial() {
+        if (!localStorage.getItem('modalShown')) {  
+            $('#modalInicial').modal('show');  
+            localStorage.setItem('modalShown', 'true');  
+        }  
+    }
 
     function carregarCursos() {
         $.ajax({

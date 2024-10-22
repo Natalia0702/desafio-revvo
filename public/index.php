@@ -122,6 +122,26 @@
         </footer>
     </div>
 
+    <!--modal inicial-->
+    <div id="modalInicial" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalInicialLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalInicialLabel">Bem-vindo!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="imagens/banner.png" alt="Bem-vindo à plataforma" class="img-fluid mb-3" style="max-width: 100%; height: auto;"> 
+                    <p>Seja bem-vindo à nossa plataforma. Aproveite para explorar os cursos disponíveis!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal inicial-->
+  
+
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Bootstrap JS CDN -->
