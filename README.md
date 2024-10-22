@@ -5,11 +5,11 @@
     O projeto roda utilizando o servidor local do PHP e o ambiente de desenvolvimento Laragon para gerenciar o frontend.  
 
 ## Tecnologias Utilizadas
-    **PHP 8.3.12**
-    **Bootstrap 4.5.2**
-    **Banco de dados MySQL**
-    **Laragon (para gerenciar o frontend)**
-    **jQuery (para AJAX)**
+    PHP 8.3.12
+    Bootstrap 4.5.2
+    Banco de dados MySQL
+    Laragon (para gerenciar o frontend)
+    jQuery (para AJAX)
 
 
 ## Pré-requisitos
