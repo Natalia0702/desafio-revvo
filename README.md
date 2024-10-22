@@ -1,32 +1,33 @@
-# desafio_revvo
-# Projeto CRUD de Cursos
+## desafio_revvo
+## Projeto CRUD de Cursos
 
-Este é um projeto de CRUD (Create, Read, Update, Delete) de cursos, desenvolvido em PHP 8.3.12 com Bootstrap para o frontend e MySQL como banco de dados. 
-O projeto roda utilizando o servidor local do PHP e o ambiente de desenvolvimento Laragon para gerenciar o frontend.
+  Este é um projeto de CRUD (Create, Read, Update, Delete) de cursos, desenvolvido em PHP 8.3.12 com Bootstrap para o frontend e MySQL como banco de dados. 
+    O projeto roda utilizando o servidor local do PHP e o ambiente de desenvolvimento Laragon para gerenciar o frontend.  
 
-# Tecnologias Utilizadas
-**PHP 8.3.12**
-**Bootstrap 4.5.2**
-**Banco de dados MySQL**
-**Laragon (para gerenciar o frontend)**
-**jQuery (para AJAX)**
+## Tecnologias Utilizadas
+    **PHP 8.3.12**
+    **Bootstrap 4.5.2**
+    **Banco de dados MySQL**
+    **Laragon (para gerenciar o frontend)**
+    **jQuery (para AJAX)**
 
 
-# Pré-requisitos
-PHP 8.3 ou superior
-MySQL
-Laragon (ou outro ambiente de desenvolvimento para gerenciar o frontend)
+## Pré-requisitos
+    PHP 8.3 ou superior
+    MySQL
+    Laragon (ou outro ambiente de desenvolvimento para gerenciar o frontend)
 
 ## Instruções de Configuração
 
 1. Clonando o Projeto
-Clone o repositório para sua máquina local: git clone https://github.com/Natalia0702/desafio-revvo.git
-Execute na raiz do projeto o comando **composer install**
+    Clone o repositório para sua máquina local: git clone https://github.com/Natalia0702/desafio-revvo.git
+    Obs: Caso seja utilizado o laragon o projeto deverá ser clonado na pasta www dentro da pasta laragon
+    Execute na raiz do projeto o comando **composer install**
 
 2. Banco de Dados
-Execute o script SQL para criar as tabelas e popular os dados:
-    arquivo .sql está na pasta database na raiz do projeto
-Preencha o arquivo .envExample com os dados do seu banco de dados e renomeie para .env
+    Execute o script SQL para criar as tabelas e popular os dados:
+        arquivo .sql está na pasta database na raiz do projeto
+    Preencha o arquivo .envExample com os dados do seu banco de dados e renomeie para .env
 
 4. Configuração do Backend
     Navegue até a pasta raiz do projeto.
@@ -34,7 +35,7 @@ Preencha o arquivo .envExample com os dados do seu banco de dados e renomeie par
 
     **php -S localhost:8080**
 
-    o projeto vai rodar em **localhost/desafio-revvo/public**
+    ao rodar o projeto em laragon ele irá ser acessado por este link: **localhost/desafio-revvo/public**
 
 5. Frontend com Laragon
     O frontend está configurado para rodar com Laragon. 
