@@ -27,7 +27,7 @@
   **composer** **install**
 
 2. Banco de Dados
-     <p> Execute o script SQL para criar as tabelas e popular os dados: arquivo .sql está na pasta database na raiz do projeto</p>
+     <p> Execute o script SQL para criar as tabelas e popular os dados, no terminal do banco de dados: arquivo .sql está na pasta database na raiz do projeto</p>
    
     <p> Preencha o arquivo .envExample com os dados do seu banco de dados e renomeie para .env</p>
 
