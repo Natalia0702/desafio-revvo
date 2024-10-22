@@ -18,4 +18,5 @@ if($path === '/listarCursos' || preg_match('/^\/listarCursos\/(\d+)$/', $path, $
     $id = isset($matches[1]) ? $matches[1] : null; 
     $resultado = $cursosController->listarCursos($id);  
     echo json_encode($resultado);
+    exit();
 }

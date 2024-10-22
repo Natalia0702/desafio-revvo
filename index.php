@@ -7,7 +7,7 @@ $dotenv->load();
 
 require_once 'Connection.php';  
 
+// Chamada da função para lidar com CORS
 handleCors();
-
 
 require_once 'app/Routes/route.php';
