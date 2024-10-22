@@ -25,9 +25,8 @@
     Execute na raiz do projeto o comando **composer install**
 
 2. Banco de Dados
-    Execute o script SQL para criar as tabelas e popular os dados:
-        arquivo .sql está na pasta database na raiz do projeto
-    Preencha o arquivo .envExample com os dados do seu banco de dados e renomeie para .env
+      Execute o script SQL para criar as tabelas e popular os dados: arquivo .sql está na pasta database na raiz do projeto
+     Preencha o arquivo .envExample com os dados do seu banco de dados e renomeie para .env
 
 4. Configuração do Backend
     Navegue até a pasta raiz do projeto.
