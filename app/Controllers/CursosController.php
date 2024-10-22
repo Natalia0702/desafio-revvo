@@ -8,8 +8,19 @@ class CursosController {
         $this->cursosModel = new CursosModel($this->pdo);
     }
 
-    public function listarCursos($id) {
-        $cursos = $this->cursosModel->listarCursos($id);
-        return $cursos;
+    public function listarCursos($id = null) {
+        return $this->cursosModel->listarCursos($id);
+    }
+
+    public function criarCurso($dados) {
+        return $this->cursosModel->criarCurso($dados);
+    }
+
+    public function editarCurso($id, $dados) {
+        return $this->cursosModel->editarCurso($id, $dados);
+    }
+
+    public function deletarCurso($id) {
+        return $this->cursosModel->deletarCurso($id);
     }
 }
